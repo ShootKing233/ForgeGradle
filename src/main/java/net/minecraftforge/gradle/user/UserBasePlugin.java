@@ -211,6 +211,7 @@ public abstract class UserBasePlugin<T extends UserBaseExtension> extends BasePl
             col.builtBy(TASK_MAKE_START);
             project.getDependencies().add(CONFIG_START, col);
             project.getDependencies().add(CONFIG_START, "net.minecraft:launchwrapper:1.12");
+            project.getDependencies().add(CONFIG_START, "com.github.unascribed:Rift:FINAL:dev");
         }
         // TODO: do some GradleStart stuff based on the MC version?
 
